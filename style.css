@@ -1,0 +1,68 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e0f7fa;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#tela-inicial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #4caf50, #81c784);
+  color: white;
+  font-size: 2rem;
+}
+
+#btnIniciar {
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  margin-top: 30px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#btnIniciar:hover {
+  background-color: #1b5e20;
+}
+
+#jogo {
+  position: relative;
+  margin-top: 20px;
+}
+
+#hud {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #333;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+#btnVolume {
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+#gameCanvas {
+  border: 2px solid #333;
+  background-color: #a5d6a7; /* fase 1 */
+  display: block;
+  border-radius: 10px;
+}
+
